@@ -1,0 +1,1 @@
+<input class="datepicker1" name="${property}" value="${value == null ? "" : "${value.getMonth()+1}/${value.getDate()}/${value.getYear()+1900}"}" ${required ? 'required' : "" } placeholder="MM/DD/YYY" type="text"/>

@@ -1,0 +1,6 @@
+# config-file.cnf
+[mysqld]
+max_allowed_packet=50M
+character-set-server = utf8
+collation-server = utf8_unicode_ci
+skip-character-set-client-handshake
